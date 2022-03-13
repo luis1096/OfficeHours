@@ -1,0 +1,7 @@
+$(CC) = gcc
+
+final:
+	$(CC) OfficeHours.c -o final -pthread
+
+clean:
+	rm *.o final
